@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 nohup python -u main.py --fraction 0.1785 --dataset PACS --data_path ../PACS --num_exp 1 --workers 8 --optimizer SGD -se 10 --selection CurvMatch --model DINO_small --selection_lr 0.0001 -sp ./result --batch 128 &

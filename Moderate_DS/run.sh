@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python selection.py --dataset PACS --rate 0.819 --model CLIP --data_dir ../PACS
